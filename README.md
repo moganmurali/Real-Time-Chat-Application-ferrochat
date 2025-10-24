@@ -52,3 +52,30 @@ Amazon DynamoDB (Chat Data)
 Amazon S3 (Media Files)
        ↓
 Amazon SNS (Push Notifications)
+
+FOLDER STRUCTURE
+ferrochat/
+│
+├── backend/
+│   ├── lambda_functions/
+│   │   ├── connect_handler.py
+│   │   ├── message_handler.py
+│   │   └── disconnect_handler.py
+│   ├── dynamodb_schema/
+│   ├── serverless.yml
+│   └── requirements.txt
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
+├── architecture-diagram.png
+└── README.md
+
+Author
+
+👤 Mr. Mogan Murali
+AWS Cloud & Devops
+moganmurali14@gmail.com
+
